@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API_KEY = "62263c19";
-const BASE_URL = "http://www.omdbapi.com/";
+const BASE_URL = "https://www.omdbapi.com/";
 
 export const fetchMoviesDatas = async (category: string) => {
   const { data } = await axios.get(BASE_URL, {
